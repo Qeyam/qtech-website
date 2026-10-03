@@ -1,0 +1,6 @@
+# Dipendenze e file di supporto locali
+.env
+ask.js
+node_modules/
+package.json
+package-lock.json

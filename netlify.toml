@@ -1,0 +1,5 @@
+[build]
+  publish = "."
+
+# Il sito è statico: nessun build command necessario.
+# Netlify pubblica direttamente i file HTML/CSS/JS della cartella.
