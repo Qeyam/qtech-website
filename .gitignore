@@ -1,6 +1,28 @@
-# Dipendenze e file di supporto locali
-.env
-ask.js
+# --- Dipendenze e file di supporto locali ---
 node_modules/
+ask.js
 package.json
 package-lock.json
+
+# --- SEGRETI: NON devono mai finire su GitHub ---
+.env
+.env.*
+*.env
+!.env.example
+
+# Chiavi, certificati e credenziali
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+id_rsa
+id_rsa.pub
+secrets.json
+credentials.json
+service-account*.json
+
+# Config locali / tool
+.vscode/
+.idea/
+.netlify/
